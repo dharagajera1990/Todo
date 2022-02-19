@@ -1,0 +1,62 @@
+    .todo-container {
+      width: 40vw;
+      margin: 10em auto;
+      padding: 20px 10px;
+      color: white;
+      text-align: left;
+    }
+    
+    .task {
+      border: 1px solid #d6d1d1;
+      padding: 1em;
+    }
+    .selectionBox
+    {
+      margin-right: 25px;
+    }
+    
+    .task button,.iconStyle{
+      background: rgb(12, 124, 251);
+      border-radius: 5px;
+      margin: 0px 5px;
+      padding: 3px 5px;
+      border: none;
+      cursor: pointer;
+      color: white;
+      float: right;
+    }
+    .addButton{
+      background: rgb(12, 124, 251);
+      border-radius: 5px;
+      margin: 0px 5px;
+      padding: 3px 5px;
+      border: none;
+      cursor: pointer;
+      color: white;
+    }
+    .iconRemove{
+      border-radius: 5px;
+      margin: 0px 5px;
+      padding: 3px 5px;
+      border: none;
+      cursor: pointer;
+      color: red;
+      float: right;     
+    }
+    
+    .header {
+      margin: 0.5em;
+      font-size: 2em;
+      text-align: center;
+      color: black;
+    }
+    
+    .create-task input[type=text] {
+      margin: 2.5em 2em;
+      width: 80%;
+      outline: none;
+      padding: 0.7em;
+      padding: 5px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
